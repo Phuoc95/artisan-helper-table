@@ -1,0 +1,25 @@
+{
+    "name": "phuocqn2/fillable",
+    "description": "Artisan Command Get Table Field",
+    "license": "MIT",
+    "authors": [{
+        "name": "phuocqn",
+        "email": "phuocqn@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "Phuocqn\\Fillable\\": "src/"
+        },
+        "files": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phuocqn\\Fillable\\PhuocqnFillableServiceProvider"
+            ]
+        }
+    }
+}
