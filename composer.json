@@ -11,14 +11,14 @@
     "autoload": {
         "classmap": [],
         "psr-4": {
-            "Phuocqn\\Fillable\\": "src/"
+            "Phuocqn\\Fillable2\\": "src/"
         },
         "files": []
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Phuocqn\\Fillable\\PhuocqnFillableServiceProvider"
+                "Phuocqn\\Fillable2\\PhuocqnFillableServiceProvider"
             ]
         }
     }

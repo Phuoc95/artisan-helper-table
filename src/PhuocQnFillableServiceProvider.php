@@ -1,9 +1,10 @@
 <?php
 
-namespace Phuocqn\Fillable;
+// namespace Phuocqn\Fillable;
+namespace App\Providers;
 
-use Phuocqn\Fillable\App\Console\Commands\ShowTableFieldCommand;
-use Phuocqn\Fillable\App\Console\Commands\ShowTableListCommand;
+use App\Console\Commands\ShowTableFieldCommand;
+use App\Console\Commands\ShowTableListCommand;
 use Illuminate\Support\ServiceProvider;
 
 class PhuocqnFillableServiceProvider extends ServiceProvider
